@@ -153,7 +153,6 @@ section.topo-do-site .flex{
     top: 0; 
     left: calc(100% + 11px); 
     right: auto; 
-    /* Estilo e Aparência */
     width: 220px;
     padding: 10px 0;
     background-color: #1f1f1f; 
@@ -161,7 +160,6 @@ section.topo-do-site .flex{
     border-radius: 4px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     z-index: 1002; 
-    /* Ocultação Padrão */
     display: none; 
 }
 
@@ -204,7 +202,6 @@ section.especialidades .flex{
 
 .especialidades .especialidades-box:hover{
     transform: scale(1.05);
-    /* box-shadow: 0 0 8px rgba(233, 231, 231, 0.534); */
 }
 
 .especialidades .especialidades-box i{
@@ -216,56 +213,33 @@ section.especialidades .flex{
     font-size: 28px;
     margin: 15px 0;
 }
-
-/*
- * 1. AJUSTE: Garante que todo o conteúdo da caixa (ícone, título, bolinhas, parágrafo)
- * esteja centralizado horizontalmente.
- */
 .especialidades-box {
     text-align: center;
 }
 
-/*
- * 2. AJUSTE: Reduz a margem inferior do título para 'colar' as bolinhas.
- */
 .especialidades-box h3 {
-    margin-bottom: 5px; /* Espaço mínimo entre o título e as bolinhas */
+    margin-bottom: 5px; 
 }
-
-
-/* * 3. ESTILO E POSICIONAMENTO: Contêiner das bolinhas de nível. 
- * Usa Flexbox para centralizar o grupo de bolinhas.
- */
 .especialidades-box .nivel-habilidade {
     display: flex; 
-    justify-content: center; /* Centraliza o grupo de bolinhas */
-    
-    /* 5px de margem superior (distância do h3)
-       0 nas laterais
-       25px de margem inferior (espaço para o parágrafo) */
+    justify-content: center;
     margin: 5px 0 25px 0; 
 }
 
-/* * 4. ESTILO BASE: Define a forma, tamanho e borda de cada bolinha.
- */
 .especialidades-box .nivel-habilidade .bola {
     display: inline-block;
     width: 12px;
     height: 12px;
-    border-radius: 50%; /* Transforma em círculo */
+    border-radius: 50%; 
     margin: 0 4px; 
-    border: 1px solid #D51428; /* Borda da cor de destaque (vermelho) */
+    border: 1px solid #D51428; 
     transition: background-color 0.3s;
 }
 
-/* * 5. ESTILO COR: Cor de preenchimento para as bolinhas de nível atingido.
- */
 .especialidades-box .nivel-habilidade .preenchida {
     background-color: #D51428; 
 }
 
-/* * 6. ESTILO COR: As bolinhas 'vazias' ficam transparentes, mostrando apenas a borda.
- */
 .especialidades-box .nivel-habilidade .vazia {
     background-color: transparent; 
 }
@@ -322,7 +296,6 @@ section.sobre .flex{
 /* ESTILO PORTFÓLIO */
 section.portfolio{
     padding: 80px 4%;
-   /*  box-shadow: 0 0 40px 10px rgba(56, 56, 56, 0.151); */
 }
 
 section.portfolio .flex{
@@ -368,8 +341,6 @@ section.portfolio .flex{
 }
 
 /* ESTILO RODA PÉ */
-
-/* ESTILO RODA PÉ CENTRALIZADO (FINAL INTEGRADO) */
 footer {
     background-color: #0a0a0a;
     background-image: radial-gradient(circle at top right, rgba(255, 0, 0, 0.07), transparent 70%);
@@ -392,7 +363,6 @@ footer .interface {
     width: 100%; 
 }
 
-/* 1. ESTILO REDES SOCIAIS */
 .redes-sociais {
     margin-top: 20px; 
 }
@@ -415,7 +385,6 @@ footer .interface {
     background-color: #f0f0f0; 
 }
 
-/* 2. ESTILO INFORMAÇÕES DE CONTATO (Endereço e Contato) */
 .info-contato p {
     font-size: 14px;
     margin-bottom: 10px;
@@ -442,7 +411,6 @@ footer .interface {
     color: #d3d3d3;
 }
 
-/* 3. ESTILO LOGO (Imagem) */
 .logo-footer {
     margin-bottom: 0; 
     padding-bottom: 0; 
@@ -458,7 +426,6 @@ footer .interface {
     margin: 0 auto; 
 }
 
-/* 4. ESTILO CRÉDITOS INFERIORES (NOVO BLOCO INTEGRADO) */
 .footer-creditos {
     margin-top: 40px; 
     text-align: center;
