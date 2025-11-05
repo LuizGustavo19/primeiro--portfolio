@@ -133,15 +133,6 @@ section.topo-do-site .flex{
     width: auto;
 }
 
-@keyframes flutuar{
-    0%{
-        top: 0;
-    }
-    100%{
-        top: 30px;
-    }
-}
-
 /* ESTILO CONTATOS DENTRO DO BOTÃO */
 .lg-contato {
     position: relative; 
